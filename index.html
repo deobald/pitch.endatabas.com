@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>endatabas | Pre-Seed Investment Pitch</title>
+    <script>
+     // If 'prefers-color-scheme' is not supported, fall back to light mode.
+     // In this case, light.css will be downloaded with 'highest' priority.
+     if (window.matchMedia('(prefers-color-scheme: dark)').media === 'not all') {
+       document.documentElement.style.display = 'none';
+       document.head.insertAdjacentHTML(
+         'beforeend',
+         '<link rel="stylesheet" href="light.css" onload="document.documentElement.style.display = \'\'">',
+       );
+     }
+    </script>
+    <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)" />
+    <link rel="stylesheet" href="light.css" media="(prefers-color-scheme: light)" />
+    <link rel="stylesheet" href="endb.css">
+  </head>
+
+  <body color-mode="user">
+    <header>
+      <h1 id="home" class="logo"><a href="/"><span class="letter-box">e</span><span class="letter-box">n</span><span class="letter-box">d</span>ata<span class="letter-box">b</span>as</a></h1>
+    </header>
+
+    <main>
+      <article>
+        <section class="intro">
+            <h1>
+              <a href="https://slides.com/stevendeobald/endb-deck">
+                <div>
+                  <img width="320px" height="320px" src="deck.jpeg" />
+                </div>
+                View Endatabas<br/>
+                Pitch Deck
+              </a>
+            </h1>
+        </section>
+
+        <section class="sql-wrapper">
+          <h1>
+            <a href="endb-investment-memo.pdf">
+              <div>
+                <img width="320px" height="320px" src="memo.jpg" />
+              </div>
+              Read Endatabas<br/>
+              Investment Memo
+            </a>
+          </h1>
+        </section>
+      </article>
+    </main>
+  </body>
+
+</html>
